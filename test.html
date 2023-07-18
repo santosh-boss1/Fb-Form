@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="index.css"> -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+body{
+    border: 4px solid rgb(155, 155, 245);
+    border-radius: 10px;
+    height: 500px;
+    width: 650px;
+    margin-left: 300px;
+    margin-top: 70px;
+    
+}
+.container{
+    border: 2px solid rgb(155, 155, 245);
+    /* border-radius: 10px; */
+    height: 100px;
+    width: 642px;
+    background-color: rgb(155, 155, 245);
+   
+
+}
+.container2{
+    border: 2px solid rgb(155, 155, 245);
+    /* border-radius: 10px; */
+    height: 392px;
+    width: 642px;
+}
+.sign{
+    margin: 20px;
+    
+    }
+    #in{
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+        text-decoration: none;
+        list-style-type: none
+    }
+    #Password{
+        margin-left: 330px;
+        padding: auto;
+        font-size: 15px;
+        font-family: 'Times New Roman', Times, serif;
+        text-decoration: none;
+        list-style-type: none;
+    }
+    
+    .icon {
+        margin-top: 20px;
+        margin-left: 20px;
+        padding: 10px;
+        background: dodgerblue;
+        color: white;
+        min-width: 50px;
+        text-align: center;
+    }
+    .input-container {
+        display: -ms-flexbox; /* IE10 */
+        display: flex;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .input-field {
+        margin-top: 20px;
+        width: 85%;
+        padding: 10px;
+        outline: none;
+    }            
+    .form-check{
+        padding: 30px;
+        padding-left: 50px;
+        color: black;
+        font-size: medium;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .login{
+       margin: auto;
+       margin-left: 40px;
+       margin-right: 20px;
+    }
+    .container ul li{
+        text-decoration: none;
+        list-style-type: none;
+    }
+    .here ul li{
+        text-decoration: none;
+        list-style-type: none;
+    }
+    #account{
+        font-size: 18px;
+        font-weight:bolder;
+        font-family:Arial, Helvetica, sans-serif;
+        color: gray;
+        text-decoration: none;
+        list-style-type: none;
+    }
+    #sign-up{
+        font-size: 18px;
+        font-weight:bolder;
+        font-family:Arial, Helvetica, sans-serif;
+        margin-left: 10px;
+        text-decoration: none;
+        list-style-type: none;
+
+
+    }
+
+
+
+
+    </style>
+ </head>
+ <body>
+<div class="container">
+  <ul>
+    <li>
+  <div class="sign">
+    <a href="#" id="in">Sign In</a>
+  
+    <a href="#" id="Password">Forgot Password?</a>
+  </div>
+  </li>
+</ul>
+</div>
+<div class="container2">
+  
+  <div class="input-container">
+    <i class="fa fa-user icon"></i>
+    <input class="input-field" type="text" placeholder="Username" name="usrnm">
+  </div>
+
+  <div class="input-container">
+    <i class="fa fa-envelope icon"></i>
+    <input class="input-field" type="text" placeholder="Email" name="email">
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+    <label class="form-check-label" for="invalidCheck2">
+      Remember Me
+    </label>
+  </div>
+  <div class="login">
+    <button class="btn btn-success" type="login">Login</button>
+    <button class="btn btn-primary" type="login-with-facebook">Login With Facebook</button>
+    <hr>
+  </div>
+  <div class="here">
+    <ul>
+      <li>
+        <a href="#" id="account">Don't have an account!  </a>
+        <a href="#" id="sign-up">Sign Up Here</a>
+      </li>
+    </ul>
+  </div>
+
+  
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+</html>

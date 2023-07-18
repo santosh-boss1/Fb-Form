@@ -1,0 +1,108 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+body{
+    border: 4px solid rgb(155, 155, 245);
+    border-radius: 10px;
+    height: 500px;
+    width: 650px;
+    margin-left: 300px;
+    margin-top: 70px;
+    
+}
+.container{
+    border: 2px solid rgb(155, 155, 245);
+    
+    height: 100px;
+    width: 642px;
+    background-color: rgb(155, 155, 245);
+   
+
+}
+.container2{
+    border: 2px solid rgb(155, 155, 245);
+    
+    height: 392px;
+    width: 642px;
+}
+.sign{
+    margin: 20px;
+    
+    }
+    #in{
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+        text-decoration: none;
+        list-style-type: none
+    }
+    #Password{
+        margin-left: 330px;
+        padding: auto;
+        font-size: 15px;
+        font-family: 'Times New Roman', Times, serif;
+        text-decoration: none;
+        list-style-type: none;
+    }
+    
+    .icon {
+        margin-top: 20px;
+        margin-left: 20px;
+        padding: 10px;
+        background: dodgerblue;
+        color: white;
+        min-width: 50px;
+        text-align: center;
+    }
+    .input-container {
+        display: -ms-flexbox; /* IE10 
+        display: flex;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .input-field {
+        margin-top: 20px;
+        width: 85%;
+        padding: 10px;
+        outline: none;
+    }            
+    .form-check{
+        padding: 30px;
+        padding-left: 50px;
+        color: black;
+        font-size: medium;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .login{
+       margin: auto;
+       margin-left: 40px;
+       margin-right: 20px;
+    }
+    .container ul li{
+        text-decoration: none;
+        list-style-type: none;
+    }
+    .here ul li{
+        text-decoration: none;
+        list-style-type: none;
+    }
+    #account{
+        font-size: 18px;
+        font-weight:bolder;
+        font-family:Arial, Helvetica, sans-serif;
+        color: gray;
+        text-decoration: none;
+        list-style-type: none;
+    }
+    #sign-up{
+        font-size: 18px;
+        font-weight:bolder;
+        font-family:Arial, Helvetica, sans-serif;
+        margin-left: 10px;
+        text-decoration: none;
+        list-style-type: none;
+
+
+    } */
